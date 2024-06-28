@@ -54,7 +54,7 @@ module parking_lot #(
 
 ## Test Bench
 
-The `tb_parking_lot.v` file contains the test bench for verifying the parking lot management system. It simulates various scenarios to ensure that the module adheres to the specified constraints.
+The `TB.v` file contains the test bench for verifying the parking lot management system. It simulates various scenarios to ensure that the module adheres to the specified constraints.
 
 ### Test Scenarios
 
