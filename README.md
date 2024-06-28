@@ -65,3 +65,21 @@ The `tb_parking_lot.v` file contains the test bench for verifying the parking lo
 - **Morning Entries/Exits (Hours 9-12):** Tests car entries and exits for both university and public cars.
 - **Afternoon Transition (Hour 14):** Verifies capacity adjustments and handles multiple university car entries to test overflow.
 - **Evening Scenario (Hour 17):** Checks the behavior during evening hours, including both car entries and exits.
+
+
+## How to Run
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/parking-lot-management.git
+    ```
+
+2. Navigate to the directory:
+
+    ```bash
+    cd parking-lot-management
+    ```
+
+3. Open the files in your favorite Verilog simulator (e.g., ModelSim, VCS, etc.).
+4. Compile and run the test bench (`tb_parking_lot.v`) to verify the functionality.
