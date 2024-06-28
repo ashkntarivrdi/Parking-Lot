@@ -30,7 +30,7 @@ The `parking_lot.v` file contains the Verilog implementation of the parking lot 
 
 ### Module Interface
 
-``verilog
+```verilog
 module parking_lot #(
     parameter UNI_CAP = 500,
     parameter PUB_CAP = 200,
@@ -48,6 +48,7 @@ module parking_lot #(
     output reg uni_is_vacated_space = 1, 
     output reg is_vacated_space = 1
 );
+```
 
 ### Functionality
 
