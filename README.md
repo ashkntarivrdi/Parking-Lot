@@ -5,7 +5,6 @@ This repository contains a Verilog implementation of a parking lot management sy
 ## Table of Contents
 
 - [Overview](#overview)
-- [Directory Structure](#directory-structure)
 - [Verilog Module](#verilog-module)
   - [Module Interface](#module-interface)
   - [Functionality](#functionality)
@@ -49,3 +48,8 @@ module parking_lot #(
     output reg is_vacated_space = 1
 );
 
+### Functionality
+
+- **Morning Hours (8 AM - 1 PM):** University staff have priority, with 500 spaces allocated to them and 200 to public.
+- **Afternoon Hours (1 PM - 4 PM):** Public parking capacity increases by 50 cars per hour.
+- **Evening Hours (After 4 PM):** Equal distribution of parking spaces between university and public.
