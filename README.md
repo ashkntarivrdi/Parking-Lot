@@ -11,7 +11,6 @@ This repository contains a Verilog implementation of a parking lot management sy
 - [Test Bench](#test-bench)
   - [Test Scenarios](#test-scenarios)
 - [How to Run](#how-to-run)
-- [Results](#results)
 
 ## Overview
 
