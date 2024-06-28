@@ -55,3 +55,13 @@ module parking_lot #(
 - **Morning Hours (8 AM - 1 PM):** University staff have priority, with 500 spaces allocated to them and 200 to public.
 - **Afternoon Hours (1 PM - 4 PM):** Public parking capacity increases by 50 cars per hour.
 - **Evening Hours (After 4 PM):** Equal distribution of parking spaces between university and public.
+
+## Test Bench
+
+The `tb_parking_lot.v` file contains the test bench for verifying the parking lot management system. It simulates various scenarios to ensure that the module adheres to the specified constraints.
+
+### Test Scenarios
+
+- **Morning Entries/Exits (Hours 9-12):** Tests car entries and exits for both university and public cars.
+- **Afternoon Transition (Hour 14):** Verifies capacity adjustments and handles multiple university car entries to test overflow.
+- **Evening Scenario (Hour 17):** Checks the behavior during evening hours, including both car entries and exits.
