@@ -12,9 +12,6 @@ This repository contains a Verilog implementation of a parking lot management sy
   - [Test Scenarios](#test-scenarios)
 - [How to Run](#how-to-run)
 - [Results](#results)
-- [License](#license)
-- [Contributing](#contributing)
-- [Contact](#contact)
 
 ## Overview
 
@@ -72,14 +69,14 @@ The `tb_parking_lot.v` file contains the test bench for verifying the parking lo
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/parking-lot-management.git
+    git clone https://github.com/ashkntarivrdi/Parking-Lot.git
     ```
 
 2. Navigate to the directory:
 
     ```bash
-    cd parking-lot-management
+    cd Parking-Lot
     ```
 
 3. Open the files in your favorite Verilog simulator (e.g., ModelSim, VCS, etc.).
-4. Compile and run the test bench (`tb_parking_lot.v`) to verify the functionality.
+4. Compile and run the test bench (`TB.v`) to verify the functionality.
