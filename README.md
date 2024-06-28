@@ -2,19 +2,27 @@
 
 This repository contains a Verilog implementation of a parking lot management system, along with a test bench to verify its correctness. The design ensures priority parking for university staff and manages the dynamic allocation of parking spaces based on the time of day.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Directory Structure](#directory-structure)
+- [Verilog Module](#verilog-module)
+  - [Module Interface](#module-interface)
+  - [Functionality](#functionality)
+- [Test Bench](#test-bench)
+  - [Test Scenarios](#test-scenarios)
+- [How to Run](#how-to-run)
+- [Results](#results)
+- [License](#license)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
 ## Overview
 
 The parking lot management system is designed with the following constraints:
 1. **Priority for University Staff:** Maximum capacity for university staff is 500 cars.
 2. **Total Parking Capacity:** Total capacity is 700 cars. From 8 AM to 1 PM, only 200 spaces are available for public parking.
 3. **Incremental Public Parking Capacity:** From 1 PM to 4 PM, public parking capacity increases by 50 cars per hour, reaching 500 cars by 4 PM.
-
-## Directory Structure
-.
-├── parking_lot.v # Verilog code for the parking lot management system
-├── tb_parking_lot.v # Verilog test bench for the parking lot management system
-└── README.md # This README file
-
 
 ## Verilog Module
 
