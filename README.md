@@ -27,6 +27,13 @@ The parking lot management system is designed with the following constraints:
 
 The `parking_lot.v` file contains the Verilog implementation of the parking lot management system. The module dynamically adjusts parking capacities based on the current hour and manages both university and public parking spaces.
 
+### Functionality
+
+- **Morning Hours (8 AM - 1 PM):** University staff have priority, with 500 spaces allocated to them and 200 to public.
+- **Afternoon Hours (1 PM - 4 PM):** Public parking capacity increases by 50 cars per hour.
+- **Evening Hours (After 4 PM):** Equal distribution of parking spaces between university and public.
+
+
 ### Module Interface
 
 ```verilog
@@ -47,9 +54,3 @@ module parking_lot #(
     output reg uni_is_vacated_space = 1, 
     output reg is_vacated_space = 1
 );
-
-### Functionality
-
-- **Morning Hours (8 AM - 1 PM):** University staff have priority, with 500 spaces allocated to them and 200 to public.
-- **Afternoon Hours (1 PM - 4 PM):** Public parking capacity increases by 50 cars per hour.
-- **Evening Hours (After 4 PM):** Equal distribution of parking spaces between university and public.
